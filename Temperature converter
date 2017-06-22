@@ -1,0 +1,11 @@
+#include <iostream.h>
+using namespace std;
+int main (){
+int celsius;
+cin >>celsius;
+cout <<"This is celsius value"<<celsius <<endl;
+int farenhit;
+farenhit=9*celsius/5+32;
+cout <<"This is farenhit value:"<<farenhit;
+return 0;
+}
